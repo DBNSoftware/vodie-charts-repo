@@ -12,7 +12,7 @@ entries:
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/base-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/base-1.9.0.tgz
     version: 1.9.0
   istio-cni:
   - apiVersion: v1
@@ -27,7 +27,7 @@ entries:
     sources:
     - http://github.com/istio/cni
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istio-cni-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istio-cni-1.9.0.tgz
     version: 1.9.0
   istio-discovery:
   - apiVersion: v1
@@ -43,7 +43,7 @@ entries:
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istio-discovery-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istio-discovery-1.9.0.tgz
     version: 1.9.0
   istio-egress:
   - apiVersion: v1
@@ -59,7 +59,7 @@ entries:
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istio-egress-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istio-egress-1.9.0.tgz
     version: 1.9.0
   istio-ingress:
   - apiVersion: v1
@@ -75,7 +75,7 @@ entries:
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istio-ingress-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istio-ingress-1.9.0.tgz
     version: 1.9.0
   istio-operator:
   - apiVersion: v1
@@ -90,7 +90,7 @@ entries:
     sources:
     - https://github.com/istio/istio/tree/master/operator
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istio-operator-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istio-operator-1.9.0.tgz
     version: 1.9.0
   istiod-remote:
   - apiVersion: v1
@@ -105,6 +105,6 @@ entries:
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://dbnsoftware.github.io/vodie-helm-repo/istio/istiod-remote-1.9.0.tgz
+    - https://dbnsoftware.github.io/vodie-charts-repo/istio/istiod-remote-1.9.0.tgz
     version: 1.9.0
 generated: "2021-02-12T02:42:09.8248169+01:00"
